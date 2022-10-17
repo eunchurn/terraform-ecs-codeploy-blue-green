@@ -1,12 +1,4 @@
 version: 0.2
-# env:
-#   secrets-manager:
-#     APIDATABASE_SECRET: arn:aws:secretsmanager:ap-northeast-2:165977844260:secret:apidatabaseAuroraSecret-VuzGmTlT58Va-Et329o
-#   parameter-store:
-#     APOLLO_KEY: /copilot/bhplf/dev/secrets/APOLLO_KEY
-#     APOLLO_GRAPH_REF: /copilot/bhplf/dev/secrets/APOLLO_GRAPH_REF
-#     COGNITO_USER_POOL_ID: /copilot/bhplf/dev/secrets/COGNITO_USER_POOL_ID
-#     COGNITO_CLIENT_ID: /copilot/bhplf/dev/secrets/COGNITO_CLIENT_ID
 phases:
   install:
     runtime-versions:
