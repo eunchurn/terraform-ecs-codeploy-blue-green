@@ -1,4 +1,8 @@
-# Terraform
+# Terraform ECS Fargate API with Prisma Blue-Green Deployment
+
+[Blog post](https://www.eunchurn.com/blog/development/2022-10-16-tWIL-Terraform)
+
+The Infrastructure as Code for ECS Fargate API with Prisma ORM, PostgreSQL, Secret Manager, CodePipeline, CodeBuild, CodeDeploy, Route53, ACM, SSM, ALB
 
 ## Terraform installation
 
