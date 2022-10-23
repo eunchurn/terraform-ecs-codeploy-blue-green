@@ -6,7 +6,7 @@ The Infrastructure as Code for ECS Fargate API with Prisma ORM, PostgreSQL, Secr
 
 ## Terraform installation
 
-## For Apple Silicon
+### Terraform install for Apple Silicon
 
 [Reference](https://discuss.hashicorp.com/t/template-v2-2-0-does-not-have-a-package-available-mac-m1/35099/4)
 
@@ -17,7 +17,8 @@ The Infrastructure as Code for ECS Fargate API with Prisma ORM, PostgreSQL, Secr
   - 3.1. `brew tap hashicorp/tap`
   - 3.2. `brew install hashicorp/tap/terraform`
 - 4. Install the hashicorp/template version v2.2.0
-  - 4.1. `m1-terraform-provider-helper install hashicorp/template -v v2.2.0`
+  - 4.1. `m1-terraform-provider-helper activate`
+  - 4.2. `m1-terraform-provider-helper install hashicorp/template -v v2.2.0`
 
 ```
 ➜  ~ terraform --version
